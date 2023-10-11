@@ -11,3 +11,4 @@ print("Hello World")
 print(23+45)
 #print calculation of 23*45
 print(23*45)
+print(45/3)
