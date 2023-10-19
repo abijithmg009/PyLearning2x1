@@ -28,13 +28,19 @@ print(f"factorial of {n} is {fact}")
 #Fibonacci
 
 n = int(input("Enter the number of fibonacci series \n"))
-list = [0]
-#a = 0
+a= 0
 b = 1
-#list = list.append(a)
-list = list.append(b)
-print(list)
+c = 1
 
+print("Fibonacci Series:", a, b, end=" ")
+
+for i in range(2, n):
+    n3 = a + b
+    print(n3, end=" ")
+    a = b
+    b = n3
+
+print("\n")
 
 
 #Example using break to exit a loop when i == 51 while printing the values from 1 to 100
