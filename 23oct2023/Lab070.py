@@ -6,3 +6,12 @@ if rev_string==orginal_str:
     print("Palindrome")
 else:
     print("Not a Palindrome")
+
+
+
+add = lambda x,y : x+y
+print(add(3,5))
+
+#lambda is used to reduce the number of lines on Python.
+
+
