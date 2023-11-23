@@ -5,10 +5,13 @@ print(my_dict)
 
 #API testing we are using JSON where Dict can be replaced
 
-#how to itterate over Dict
+#how to itterate over Dict?
 
 knighs = {"galland":"the pure", "things": "how to","to do":"in the list"}
+print(len(knighs))
 print(knighs)
 
-for k,v in knighs.values():
-    
+for k,v in knighs.items():
+    #print(k)
+    #print(v)
+    print(k,v)

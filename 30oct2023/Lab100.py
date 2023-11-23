@@ -10,3 +10,9 @@ for k,v in my_dict.items():
 
 od1 = 'd' in my_dict
 print(od1)
+
+
+my_dict2 = {True:123}
+print(my_dict2)
+print(type(my_dict2))
+print(my_dict2[True])

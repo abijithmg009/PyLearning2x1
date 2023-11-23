@@ -16,7 +16,7 @@ print(phone_book2.get("GB"))
 
 
 new_dect = dict(name="Pramod", age = 34, isMale= True, Address = "KA")
-new_dect2 = {"name":"Pramod", 90 :34, "isMale": True, "Address" : "KA"}
+new_dect2 = {"name":"Pramod", "age" :34, "isMale": True, "Address" : "KA"}
 
 print(new_dect["age"])
 print(new_dect["isMale"])

@@ -18,7 +18,7 @@ print(od)
 #Dictionary has no slicing which is only available on list
 
 #Selenium - insert webelments into a Dict
-# You want to keep the order - login elements, Dasboard elemts
+# You want to keep the order - login elements, Dashboard elements
 
 
 #Dict = it will not keep  the order of insertion
@@ -29,5 +29,13 @@ print(keys)
 keys_sorted = sorted(keys)
 print(keys_sorted)
 
-keys_reversd = reversed(keys)
+od2 = OrderedDict()
+od2[keys_sorted[0]]=45
+od2[keys_sorted[1]]=43
+od2[keys_sorted[2]]=76
+od2[keys_sorted[3]]=67
+print(od2)
+
+
+keys_reversd = list(reversed(keys_sorted))
 print(keys_reversd)

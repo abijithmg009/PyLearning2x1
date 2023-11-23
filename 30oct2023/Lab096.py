@@ -14,6 +14,7 @@ print(key_list[2])
 
 copy_my_dict = my_dict.copy()
 print(copy_my_dict)
+print(copy_my_dict.items())
 
 
 
