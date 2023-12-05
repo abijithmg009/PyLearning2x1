@@ -1,4 +1,5 @@
 #Single Inheritence = 98%
+#use the properties and methods of base class/parent class to a child class.
 
 
 class Father:

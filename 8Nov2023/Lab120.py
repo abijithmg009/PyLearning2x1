@@ -1,7 +1,8 @@
-#Inheritence.
+#Inheritence. Parent and child
 #Father -> Son
-#single inhertence:
-
+#single inhertence: Parent giving to child
+#Multilevel = one or more level
+# Single inheritence
 
 class Animal:
     def speak(self):
@@ -21,3 +22,4 @@ class Dog(Animal):
 
 dog = Dog()
 dog.speak()
+dog.i_want_drive()
