@@ -5,4 +5,4 @@ try:
     c = a / b
     print (c)
 except Exception as Error:
-    print("You're dividing by zero which is not possible")
+    print("You're dividing by zero which is not possible",Error)
