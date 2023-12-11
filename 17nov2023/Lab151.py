@@ -13,6 +13,6 @@ with open('mydata.csv', 'w') as file:
 
 
 """
-Most of time, 90% nwe will read the time,10% we will write the file
+Most of time, 90% nwe will read the time,10% we will write the file.
 
 """
